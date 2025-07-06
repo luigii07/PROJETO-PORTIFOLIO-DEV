@@ -1,3 +1,33 @@
 #services {
-    
+    background-color: var(--color-gray-600);
+    padding: 88px 120px 120px 120px;
+    display: flex;
+    gap: 56px;
+
+    .card {
+        width: 280px;
+        height: 155px;
+        padding: 20px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        border-radius: 12px;
+        border: 2px solid var(--color-gray-500);
+
+        img {
+            width: 48px;
+            margin-block: auto;
+        }
+
+        header {
+            span {
+                color: var(--color-gray-100);
+            }
+
+            p {
+                margin-top: 8px;
+                color: var(--color-gray-200);
+            }
+        }
+    }
 }

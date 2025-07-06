@@ -26,6 +26,10 @@
     gap: 8px;
 }
 
+.gap-24 {
+    gap: 24px;
+}
+
 .title-md {
     font: var(--title-md);
 }
