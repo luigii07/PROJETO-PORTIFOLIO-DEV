@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --color-red: #E3646E;
     --color-purple: #BB72E9;
@@ -24,4 +30,12 @@
 
     --text-md: 400 16px/140% var(--font-maven-pro);
     --text-sm: 400 14px/140% var(--font-maven-pro);
+}
+
+body {
+    background-color: var(--color-gray-500);
+}
+
+img {
+    max-width: 100%;
 }
