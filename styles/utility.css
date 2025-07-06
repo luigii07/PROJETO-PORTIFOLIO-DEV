@@ -6,6 +6,34 @@
     flex-direction: column;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.title-md {
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
+}
+
 .text-subtitle {
     font: var(--subtitle);
 }
@@ -16,4 +44,8 @@
 
 .text-sm {
     font: var(--text-sm);
+}
+
+.color-red {
+    color: var(--color-red);
 }
