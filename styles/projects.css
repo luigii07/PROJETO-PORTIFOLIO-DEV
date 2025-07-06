@@ -17,6 +17,7 @@
             padding: 12px;
             background-color: var(--color-gray-400);
             border-radius: 12px;
+            border: 1.5px solid transparent;
 
             img {
                 border-radius: 8px;
@@ -29,6 +30,10 @@
             p {
                 color: var(--color-gray-200);
             }
+        }
+
+        .project-card:hover {
+            border: 1.5px solid var(--color-gray-300);
         }
     }
 }
