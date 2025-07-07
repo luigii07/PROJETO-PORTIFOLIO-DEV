@@ -30,6 +30,10 @@
     gap: 24px;
 }
 
+.title-lg {
+    font: var(--title-lg);
+}
+
 .title-md {
     font: var(--title-md);
 }

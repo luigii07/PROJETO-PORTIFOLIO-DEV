@@ -23,12 +23,16 @@
                 border-radius: 8px;
             }
 
-            span {
-                color: var(--color-gray-100);
-            }
+            figcaption {
+                gap: 20px;
 
-            p {
-                color: var(--color-gray-200);
+                span {
+                    color: var(--color-gray-100);
+                }
+
+                p {
+                    color: var(--color-gray-200);
+                }
             }
         }
 

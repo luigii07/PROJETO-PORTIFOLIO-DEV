@@ -1,13 +1,12 @@
 #contact {
     height: 787px;
     padding: 128px 120px 200px 128px;
-    background-image: url(../assets/Background_Contacts.png);
+    background-image: url(../assets/bg/Background_Contacts.png);
     background-size: cover;
-
     gap: 48px;
 
     header {
-        #title {
+        & > div {
             p {
                 color: var(--color-gray-200);
                 margin-top: 8px;
@@ -18,7 +17,6 @@
     #links {
         width: 400px;
         display: flex;
-        align-items: center;
         justify-content: space-between;
         gap: 16px;
 
