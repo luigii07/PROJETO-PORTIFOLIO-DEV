@@ -1,7 +1,7 @@
 #intro {
     height: 750px;
     background-image: url(../assets/bg/Background_Intro.png);
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
     
     #info {
