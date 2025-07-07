@@ -2,7 +2,7 @@
     height: 787px;
     padding: 128px 120px 200px 128px;
     background-image: url(../assets/bg/Background_Contacts.png);
-    background-size: cover;
+    background-size: 100% 100%;
     gap: 48px;
 
     header {
